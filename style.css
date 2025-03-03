@@ -17,3 +17,9 @@
     box-shadow: 0 5px #667;
     transform: translateY(4px);
   }
+  #text{
+    margin-left: 900px;
+    margin-top: -250px;
+    font-size:28px;
+    font-weight:700;
+  }
