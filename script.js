@@ -34,4 +34,9 @@ function yell_at_user() {
     else if( clicks == 31 ) {
         text.innerHTML = "STOP!"
     }
+    else if( clicks == 35 ) {
+        button1.classList.add("Idea")
+        text.innerHTML = "Maybye this will make you stop."
+        
+    }
 }
