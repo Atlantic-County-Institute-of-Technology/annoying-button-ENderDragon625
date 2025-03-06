@@ -19,11 +19,26 @@
     transform: translateY(4px);
   }
   .text{
-    margin-left: 900px;
-    margin-top: -250px;
+    margin-left: 800px;
+    margin-top: -350px;
     font-size:28px;
     font-weight:700;
   }
   .Idea {
-
+    transition: 0.5s;
+    animation: cowmove 0.1s infinite;  
   }
+  @keyframes cowmove{
+    0% {
+      transform: translateX(-50px);
+    }
+    49% {
+      transform: translateX(-600px);
+    }
+    50% {
+      transform: translateX(600px);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+}

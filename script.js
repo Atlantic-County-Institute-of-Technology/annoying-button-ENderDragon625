@@ -1,5 +1,6 @@
 let text = document.getElementById("text")
 const button = document.getElementById("button1")
+let rage = new Audio("tyler1.mp3")
 
 let clicks = 0;
 
@@ -37,8 +38,31 @@ function yell_at_user() {
     else if( clicks == 35 ) {
         button1.classList.add("Idea")
         text.innerHTML = "Maybye this will make you stop."
+    }
+    else if( clicks == 36 ) {
+        button1.classList.remove("Idea")
+        text.innerHTML = "You caught me!?"
+    }
+    else if( clicks == 40 ) {
+        text.innerHTML = "How!?" 
+    }
+    else if( clicks == 44 ) {
+        text.innerHTML = "HOW!?" 
+    }
+    else if( clicks == 48 ) {
+        text.innerHTML = "I DON'T UNDERSTAND!!!" 
+    }
+    else if( clicks == 52 ) {
+        text.innerHTML = "WHY!?" 
+    }
+    else if( clicks == 54 ) {
+        text.innerHTML = "WHY ARE YOU DOING THIS TO ME!?" 
+    }
+    else if( clicks == 58 ) {
+        text.innerHTML = "WHY!?" 
+    }
+    else if( clicks == 62 ) {
+        text.innerHTML = "WHYYYYYYYYYYYYY!?!?!?" 
        
     }
-   
-    
 }
