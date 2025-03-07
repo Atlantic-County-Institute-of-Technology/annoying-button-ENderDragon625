@@ -1,6 +1,6 @@
 let text = document.getElementById("text")
 const button = document.getElementById("button1")
-let rage = new Audio("tyler1.mp3")
+let rage = new Audio("tyler2.mp3")
 
 let clicks = 0;
 
@@ -63,6 +63,7 @@ function yell_at_user() {
     }
     else if( clicks == 62 ) {
         text.innerHTML = "WHYYYYYYYYYYYYY!?!?!?" 
-       
+        let rage = new Audio("Assets/Tyler2.mp3");
+        rage.play();
     }
 }
